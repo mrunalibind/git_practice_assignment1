@@ -1,8 +1,12 @@
-let num=5;
-let isPrime="Yes";
-for(let i=2;i<num;j++){
-    if(num%i==0){
-        isPrime="No";
-    }
+let num=6;
+let co=0;
+for(let i=0;i<=num;i++){
+  if(num%i==0){
+    co++;
+  }
 }
-console.log(isPrime);
+if(co==2){
+  console.log(num,"Is a Prime Number");
+}else{
+  console.log(num,"Is not a Prime Number");
+}
